@@ -224,6 +224,9 @@ initContainers: []
 #   image: busybox
 #   command: []
 
+extraContainers: []
+# Additional containers to be added
+
 garbageCollect:
   enabled: false
   deleteUntagged: true
